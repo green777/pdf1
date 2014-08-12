@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>list of uploaded files</title>	
+	</head>
+
+	<body>
+                <strong> <a href="{{upload_link}}">Click to Upload Files</a> </strong>
+                <!--table shows files info-->
+                <TABLE BOARDER=2>
+                    <TR> <TH>filename</TH> <TH>#pages</TH> <TH>upload time</TH> </TR>
+
+                    {% if files %}
+                            <ul>
+                            {% for file in files %}
+                            <TR> 
+                                <TD><li><a href="{{file.content.url }}">{{ file.content.name}}</a> </li> </TD>
+                                <TD> {{file.page_count}} </TD>
+                                <TD> {{file.create_date}}</TD>
+                            </TR>
+                            {% endfor %}
+                            </ul>
+                    {% else %}
+                            <p>No files.</p>
+                    {% endif %}
+            </TABLE>
+	</body>
+
+</html> 

@@ -1,0 +1,67 @@
+" Press ? for help
+
+.. (up a dir)
+<e/green/Documents/djangoTutor/
+▾ for_django_1-6/
+  ▾ myproject/
+    ▾ myproject/
+      ▸ database/
+      ▸ media/
+      ▾ myapp/
+        ▸ templates/
+          __init__.py
+          __init__.pyc
+          forms.py
+          forms.pyc
+          models.py
+          models.pyc
+          urls.py
+          urls.pyc
+          views.py
+          views.pyc
+        __init__.py
+        __init__.pyc
+        settings.py
+        settings.pyc
+        urls.py
+        urls.pyc
+        wsgi.py
+        wsgi.pyc
+      manage.py
+▸ minimal-django-file-upload-example-master/
+▾ mysite/
+  ▾ file2pdf/
+    ▸ temp_upload/
+    ▾ templates/
+      ▾ file2pdf/
+          index.html
+          list.html
+          list_content.html
+          upload.html
+      __init__.py
+      __init__.pyc
+      admin.py
+      admin.pyc
+      forms.py
+      forms.pyc
+      models.py
+      models.pyc
+      pdfconv.py
+      tests.py
+      urls.py
+      urls.pyc
+      views.py
+      views.pyc
+  ▾ mysite/
+      __init__.py
+      __init__.pyc
+      settings.py
+      settings.pyc
+      urls.py
+      urls.pyc
+      wsgi.py
+      wsgi.pyc
+  ▸ polls/
+  ▸ templates/
+    magic.txt
+    manage.py
